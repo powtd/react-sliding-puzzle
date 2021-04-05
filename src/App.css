@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
+.App {
+  text-align: center;
+}
+
+.Container {
+  margin: 5px 0px;
+  grid-template-columns: auto auto auto auto;
+  display: grid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  cursor: default;
+  touch-action: none;
+  border: 3px solid #000;
+  border-radius: 3px;
+ 
+}
+
+.Container-Sub {
+  border-radius: 3px;
+  
+}
+.FillSquare {
+  width: 10vh;
+  height: 10vh;
+  display: flex;
+  border-radius: 3px;
+  background: rgb(255, 102, 0);
+  border: 3px solid #000;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  font-family: 'Londrina Solid', cursive;
+  text-align: center;
+ 
+  z-index: 10;
+  font-size: 4em;
+  
+  transition: transform 0.3s ease 0s;
+ 
+  transform: translate3d(0px, 0px, 0px);
+  margin: .2vw;
+
+}
+
+.EmptySquare {
+  display: none;
+  border-radius: 3px;
+  
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  font-family: Pacifico, cursive;
+  text-align: center;
+  font-weight: bold;
+  z-index: 10;
+  font-size: 75px;
+  transition: transform 0.3s ease 0s;
+  
+  transform: translate3d(0px, 0px, 0px);
+}
