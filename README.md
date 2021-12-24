@@ -1,3 +1,2 @@
-# react-sliding-puzzle
- 
-![](sliding.png)
+#Pixel_square
+Requirement of project installation
